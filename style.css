@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap');
+
+body {
+  font-family: 'Baloo 2', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron {
+  padding: 60px;
+  background-color: #00c8eb;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+nav {
+  background-color: tomato;
+}
+
+.nav-bar {
+  display: flex;
+  width: 500px;
+  margin: 0 auto;
+}
+  
+.item {
+  flex-grow: 1;
+  padding: 10px;
+  text-align: center;
+  
+}
+
+.item:hover {
+  color: white;
+  background-color: rgb(255, 124, 100);
+}
+
