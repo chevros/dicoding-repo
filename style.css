@@ -12,6 +12,7 @@ body {
   text-align: center;
   font-size: 50px;
   color: white;
+  height: 1000px;
 }
 
 .container {
@@ -64,6 +65,21 @@ li {
   padding: 20px;
 }
 
+.judul-content {
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+
+.sub-judul-content {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.sub-judul {
+  font-weight: bold;
+  font-size: 15px;
+}
 
 aside {
   flex: 30%;
@@ -76,4 +92,9 @@ aside {
 
 .test {
   background-color: blueviolet;
+}
+
+span {
+  font-weight: bolder;
+  font-size: 20px;
 }
