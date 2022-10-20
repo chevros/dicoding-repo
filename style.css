@@ -4,20 +4,27 @@ body {
   font-family: 'Baloo 2', cursive;
   margin: 0;
   padding: 0;
+  background-color: #effffd;
+}
+
+header {
+  display: inline;
 }
 
 .jumbotron {
   padding: 60px;
-  background-color: #00c8eb;
+  background-color: #effffd;
   text-align: center;
-  font-size: 50px;
-  color: white;
-  height: 1000px;
+  font-size: 60px;
+  color: #42C2FF;
+  height: 780px;
+  font-weight: bolder;
 }
 
-.container {
-  margin: 0 auto;
-  width: 80%;
+.img img {
+  width: 506px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .container-flex {
@@ -27,10 +34,30 @@ body {
   flex-wrap: wrap;
 }
 
+.profile-icon {
+  text-align: center;
+}
+
+.profile-icon img {
+  width: 50%;
+}
+
+.judul-content span {
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 50px;
+}
+
+.center {
+  text-align: center;
+}
+
 nav {
   /* display: flex; */
-  background-color: tomato;
+  background-color: #effffd;
   margin: 0 auto;
+  position: sticky;
+  top: 0;
 }
 
 .item {
@@ -38,31 +65,39 @@ nav {
   
 }
 
-ul {
+.nav-bar {
   display: flex;
   justify-content: center;
   flex-direction: row;
   margin: 0 auto;
+  color: #42C2FF;
 }
 
-li {
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #42C2FF;
+}
+
+.list-nav-bar {
   display: inline-flex;
 }
 
 .item:hover {
   color: white;
-  background-color: rgb(255, 124, 100);
-}
-
-#toggle-btn {
-  float: right;
-  position: relative;
+  background-color: #42C2FF;
 }
 
 .content {
   flex: 60%;
-  text-align: justify;
+  /* text-align: justify; */
   padding: 20px;
+}
+
+.pad-top {
+  padding-top: 5rem;
 }
 
 .judul-content {
@@ -90,11 +125,59 @@ aside {
   padding: 20px;
 }
 
-.test {
-  background-color: blueviolet;
+.profile-list {
+  list-style: none;
+}
+
+.card {
+  background-color: #B8FFF9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.isi {
+  padding: 20px;
+}
+
+.text {
+  text-align: justify;
 }
 
 span {
   font-weight: bolder;
   font-size: 20px;
+}
+
+footer {
+  display: flex;
+  background-color: #42C2FF;
+  justify-content: center;
+}
+
+.credits {
+  padding: 20px;
+  color: #effffd;
+  font-size: 20px;
+}
+
+/* dark theme mode */
+
+.dark {
+  background: black;
+  color: #F806CC;
+}
+
+.dark-item {
+  color: #F806CC;
+  background: black;
+}
+
+.dark-item:hover {
+  background-color: #F806CC;
+  color: white;
+}
+
+.dark-card {
+  background: #2E0249;
+  color: #F806CC;
 }
