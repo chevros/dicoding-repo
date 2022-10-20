@@ -181,3 +181,19 @@ footer {
   background: #2E0249;
   color: #F806CC;
 }
+
+@media screen and (max-width: 598px) {
+  .img img {
+    width: 300px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .jumbotron {
+    height: 500px;
+  }
+
+  nav {
+    font-size: 10px;
+  }
+}
