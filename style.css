@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Baloo 2', cursive;
   margin: 0;
@@ -58,6 +62,7 @@ nav {
   margin: 0 auto;
   position: sticky;
   top: 0;
+  display: flex;
 }
 
 .item {
@@ -66,7 +71,6 @@ nav {
 }
 
 .nav-bar {
-  display: flex;
   justify-content: center;
   flex-direction: row;
   margin: 0 auto;
@@ -75,11 +79,13 @@ nav {
 
 a {
   text-decoration: none;
+  color: #42C2FF;
 }
 
 a:visited {
   color: #42C2FF;
 }
+
 
 .list-nav-bar {
   display: inline-flex;
@@ -91,7 +97,7 @@ a:visited {
 }
 
 .content {
-  flex: 60%;
+  flex: 70%;
   /* text-align: justify; */
   padding: 20px;
 }
@@ -103,12 +109,12 @@ a:visited {
 .judul-content {
   font-weight: bolder;
   text-transform: uppercase;
-  font-size: 50px;
+  font-size: 25px;
 }
 
 .sub-judul-content {
   font-weight: bold;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .sub-judul {
@@ -141,11 +147,7 @@ aside {
 
 .text {
   text-align: justify;
-}
-
-span {
-  font-weight: bolder;
-  font-size: 20px;
+  font-size: 11px;
 }
 
 footer {
@@ -183,17 +185,21 @@ footer {
 }
 
 @media screen and (max-width: 598px) {
+
   .img img {
-    width: 300px;
+    width: 200px;
     object-fit: cover;
     object-position: center;
   }
 
   .jumbotron {
     height: 500px;
+    width: 400px;
+    font-size: 25px;
   }
 
   nav {
     font-size: 10px;
+    padding: 0;
   }
 }
